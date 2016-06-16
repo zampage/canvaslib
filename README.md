@@ -1,5 +1,1 @@
-# mclib 0.0.1
-
-### Features
-
-* isLoaded : loaded status of the library
+# mclib 0.1.0
