@@ -7,11 +7,9 @@ $(document).ready(function(){
     var child = mclib.createRect({
         width: 100,
         height: 100,
-        color: '#FF9900'
+        color: '#FF9900',
     });
 
     stage.addChild(child);
-
-    console.log(stage);
 
 });
