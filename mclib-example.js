@@ -28,6 +28,12 @@ $(document).ready(function(){
         color: '#00FF00'
     });
 
+    // ADD ONCLICK EVENT
+    circle.onclick = function(evt){
+        console.log("I got glicked! :)");
+        console.log(evt);
+    }
+
     // ADD CIRCLE TO STAGE
     stage.addChild(circle);
 
