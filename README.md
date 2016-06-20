@@ -1,1 +1,2 @@
-# mclib 0.1.0
+# mclib
+**mclib** is a lightweight JavaScript library to handle canvas
