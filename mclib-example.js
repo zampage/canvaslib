@@ -1,4 +1,6 @@
 var stage;
+var rect;
+var circle;
 
 $(document).ready(function(){
 
@@ -6,7 +8,7 @@ $(document).ready(function(){
     stage = mclib.createStage($('#my-canvas'));
 
     // CREATE A RECT
-    var rect = mclib.createRect({
+    rect = mclib.createRect({
         width: 100,
         height: 100,
         color: '#FF9900',
@@ -21,7 +23,7 @@ $(document).ready(function(){
     stage.addChild(rect);
 
     // CREATE A CIRCLE
-    var circle = mclib.createCircle({
+    circle = mclib.createCircle({
         x: 200,
         y: 200,
         r: 50,
